@@ -175,21 +175,21 @@ b{
 
 .second{
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid  rgba(25, 163, 193, 1);
     width: 20%;
     margin-right: 50px;
     height: 200px;
     margin: 90px;
-    background-color: rgb(7, 12, 14);
+    background-color:  rgba(25, 163, 193, 1);
     left: 40%;
 }
 .troixiem{
-    border: 1px solid black;
+    border: 1px solid  rgba(25, 163, 193, 1);
     right: 30%;
     width: 20%;
     height: 200px;
     margin-top: 90px;
-    background-color:rgb(48, 50, 51);
+    background-color: rgba(25, 163, 193, 1);
     position: absolute;
     left: 66%;
 
@@ -222,36 +222,38 @@ b{
 
 .premier p{
     position: absolute;
-    left: 35%;
+    left: 40%;
     top: 55%;
     font-family: arial;
     font-size: 20px;
-    color: #e73030;
+    color: #ffffff;
+    width: 30px;
+    text-align: center;
 }
 
 .second p{
     position: absolute;
-    top: 83%;
-    left: 30%;
+    top: 60%;
+    left: 23%;
     text-align: center;
     font-family: arial;
     font-size: 20px;
-    color: #c83131;
+    color: #ffffff;
 }
 
 .troixiem p{
     position: absolute;
     top: 60%;
-    left: 72%;
+    left: 20%;
     text-align: center;
     font-family: arial;
     font-size: 20px;
-    color: #b31b1b;
+    color: #ffffff;
 }
 
 .fa-solid{
     font-size: 80px;
-    color: #942222;
+    color: #ffffff;
 }
 
 .premier .fa-solid{
@@ -261,17 +263,19 @@ b{
 
 .second .fa-solid{
     position: absolute;
-    left: %; top: 10%;
+    left: 45%;
+    top: 15%;
 }
 
 .troixiem .fa-solid{
     position: absolute;
-    right:14%; bottom: 22%;
+    right:40%; bottom: 50%;
 }
 
 #MonPremier{
     border: 1px solid black;
-    width: 50%;
+    width: 45%;
+    background-color: aqua;
 }
 
 #MonSecond{
@@ -279,7 +283,7 @@ b{
     width: 50%;
 }
 
+
 .Labase{
-    position: relative;
-    
+    display: flex;
 }
