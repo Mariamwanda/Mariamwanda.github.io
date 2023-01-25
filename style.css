@@ -1,0 +1,285 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+
+#banniere{
+    background-color: #ffffff;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    
+}
+
+#banniere img{
+    margin: 20px;
+    margin-left: 15%;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 10px;
+    font-family: arial;
+    position: relative;
+    left: 30%;
+    color: #ffffff;
+}
+
+
+.butt p{
+    position: relative;
+    top: 40px;
+    left: 8px; 
+    font-family: courier;
+}
+
+.unique p{
+   position: relative;
+   top: 90px; 
+   font-size: 13px;
+   color: rgba(25, 163, 193, 1);
+}
+
+/* button{
+    width: 10%;
+    height: 40px;
+    float: center;
+    position: absolute;
+    right: 0px;
+    width: 50px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+} */
+
+h5{
+   float: right;
+    font-size: 20px;
+    color: #000;
+    margin: 20px;
+    position: relative;
+    bottom: 100px;
+    font-family: Arial;
+}
+
+b{
+    font-size: 30px;
+    float: right;
+    position: relative;
+    right: 105%;
+}
+
+
+.BUT1{
+    border: 1px solid rgba(232, 158, 47, 1);
+    width: 50%;
+    height: 50px;
+    margin: 20px;
+    border-radius: 40px;
+    Text-align: center;
+    color: rgba(232, 158, 47, 1);
+    padding: 10px;
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+}
+
+.BUT2{
+    border: 1px solid rgba(25, 163, 193, 1);
+    width: 50%;
+    height: 50px;
+    margin: 20px;
+    border-radius: 40px;
+    text-align: center;
+    color: rgba(25, 163, 193, 1);
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+    padding: 10px;
+}
+
+#contact{
+    width: 100%;
+    display: flex;
+    margin: 40px;
+    text-align: center;
+    float: right;
+    justify-items: center;
+}
+
+.lien{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(247, 243, 243, 0.848);
+}
+
+.lien a{
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
+
+.lien section{
+    margin-left: 14%;
+    position: relative;
+    top: 20px;
+}
+
+.Mapage{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    background: url(IMAGE/Header-15.png) no-repeat;
+    background-size: 100% 100%;
+    
+
+}
+
+#flote{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 43%;
+    height: 200px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    border-radius: 10px;
+}
+
+.premier{
+    border: 1px solid rgba(25, 163, 193, 1);
+    width: 20%;
+    height: 200px;
+    margin: 30px;
+    margin-top: 87px;
+    margin-right: 50px;
+    margin-left: 160px;
+    background-color: rgba(25, 163, 193, 1);
+    position: relative;
+    left: 15%;
+}
+
+.second{
+    position: absolute;
+    border: 1px solid black;
+    width: 20%;
+    margin-right: 50px;
+    height: 200px;
+    margin: 90px;
+    background-color: rgb(7, 12, 14);
+    left: 40%;
+}
+.troixiem{
+    border: 1px solid black;
+    right: 30%;
+    width: 20%;
+    height: 200px;
+    margin-top: 90px;
+    background-color:rgb(48, 50, 51);
+    position: absolute;
+    left: 66%;
+
+   
+}
+
+#select{
+    display: flex;
+    
+}
+
+.Milieu section{
+    position: relative;
+    left: 40%;
+    float: left;
+}
+
+#flote h1{
+    text-align: center;
+    margin: 15px;
+    font-family: sans-serif ;
+}
+
+#flote p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica;
+}
+
+.premier p{
+    position: absolute;
+    left: 35%;
+    top: 55%;
+    font-family: arial;
+    font-size: 20px;
+    color: #e73030;
+}
+
+.second p{
+    position: absolute;
+    top: 83%;
+    left: 30%;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: #c83131;
+}
+
+.troixiem p{
+    position: absolute;
+    top: 60%;
+    left: 72%;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: #b31b1b;
+}
+
+.fa-solid{
+    font-size: 80px;
+    color: #942222;
+}
+
+.premier .fa-solid{
+    position: absolute;
+    left: 35%;top: 10%;
+}
+
+.second .fa-solid{
+    position: absolute;
+    left: %; top: 10%;
+}
+
+.troixiem .fa-solid{
+    position: absolute;
+    right:14%; bottom: 22%;
+}
+
+#MonPremier{
+    border: 1px solid black;
+    width: 50%;
+}
+
+#MonSecond{
+    border: 1px solid blue;
+    width: 50%;
+}
+
+.Labase{
+    position: relative;
+    
+}
