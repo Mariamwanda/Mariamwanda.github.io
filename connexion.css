@@ -8,6 +8,30 @@ body{
     background-color: gray;
 }
 
-#page{
-    height: ;
+#page .orange{
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+}
+
+fieldset{
+    width: 50%;
+    height: 150px;
+}
+
+h1{
+    text-align: center;
+}
+
+#MesLien{
+    background-color: burlywood;
+    width: 100%;
+    height: 100px;
+}
+
+#MesLien img{
+    width: 8%;
+    height: 70px;
+    margin: 15px;
+    margin-left: 15%;
 }

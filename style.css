@@ -1,5 +1,5 @@
 *{
-    
+
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
@@ -93,7 +93,7 @@ b{
     color: rgba(232, 158, 47, 1);
     padding: 10px;
     position: relative;
-    left: 740px;
+    left: 720px;
     bottom: 50px;
 }
 
@@ -106,7 +106,7 @@ b{
     text-align: center;
     color: rgba(25, 163, 193, 1);
     position: relative;
-    left: 740px;
+    left: 720px;
     bottom: 50px;
     padding: 10px;
 }
@@ -128,7 +128,7 @@ b{
     text-align: center;
     padding: 10px;
     position: relative;
-    left: 138%;
+    left: 125%;
     bottom: 25px;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(35, 32, 32);
@@ -157,9 +157,10 @@ b{
 }
 
 #banniere select{
-    width: 10%;
-    height: 10px;
-    margin-top:35px;
+    width: 55%;
+    height: 40px;
+    margin-top:25px;
+    margin-left: -20%;
 }
 
 #banniere .menu{
@@ -223,11 +224,6 @@ b{
    
 }
 
-#select{
-    display: flex;
-    
-}
-
 #flote h1{
     text-align: center;
     margin: 15px;
@@ -247,8 +243,7 @@ b{
     top: 55%;
     font-family: arial;
     font-size: 20px;
-    color: #ffffff;
-    
+    color: #ffffff; 
 }
 
 #contact .fa-solid{
@@ -411,6 +406,7 @@ button:hover{
 
 #select{
     margin-top: 50px;
+    display: flex;
 }
 
 .right #entier{
@@ -429,3 +425,9 @@ button:hover{
  border: none;
 }
 
+
+.menu label{
+   position: relative;
+   left: -25%;
+   bottom: 10%;
+}
