@@ -1,4 +1,5 @@
 *{
+    
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
@@ -92,7 +93,7 @@ b{
     color: rgba(232, 158, 47, 1);
     padding: 10px;
     position: relative;
-    left: 1000px;
+    left: 740px;
     bottom: 50px;
 }
 
@@ -105,7 +106,7 @@ b{
     text-align: center;
     color: rgba(25, 163, 193, 1);
     position: relative;
-    left: 1000px;
+    left: 740px;
     bottom: 50px;
     padding: 10px;
 }
@@ -117,6 +118,22 @@ b{
     text-align: center;
     float: right;
     justify-items: center;
+}
+
+#contact a{
+    border: 1px solid;
+    text-decoration: none;
+    width: 50%;
+    height: 43px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 138%;
+    bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(35, 32, 32);
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .lien{
@@ -134,10 +151,22 @@ b{
 }
 
 .lien section{
-    margin-left: 14%;
+    margin-left: 15%;
     position: relative;
     top: 20px;
 }
+
+#banniere select{
+    width: 10%;
+    height: 10px;
+    margin-top:35px;
+}
+
+#banniere .menu{
+   position: relative;
+   left: 38%; top: 13%;
+}
+
 
 .Back{
     width: 100%;
@@ -202,25 +231,31 @@ b{
 #flote h1{
     text-align: center;
     margin: 15px;
-    font-family: sans-serif ;
+    font-family: tahoma ;
 }
 
 #flote p{
     text-align: center;
     font-size: 25px;
-    padding-top: 20px;
-    font-family: Arial, Helvetica;
+    padding-top: px;
+    font-family: tahoma;
 }
 
 .premier p{
     position: absolute;
-    left: 40%;
+    left: 35%;
     top: 55%;
     font-family: arial;
     font-size: 20px;
     color: #ffffff;
-    width: 30px;
-    text-align: center;
+    
+}
+
+#contact .fa-solid{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: rgba(25, 163, 193, 1);
 }
 
 .second p{
@@ -264,17 +299,11 @@ b{
     right:40%; bottom: 50%;
 }
 
-#Blem{
-    background-color: rgb(178, 171, 172);
-    width: 100%;
-    height: 670px;
-}
-
 
 #Formul{
     display: flex;
-    width: 100%;
-    margin-left: 8%;
+    width: 85%;
+    margin-left: 13%;
 }
 
 fieldset{
@@ -306,4 +335,97 @@ label{
 button{
     font-size: 20px;
     border-radius: 20px;
+    background-color: rgba(25, 163, 193, 1);
+    color: #ffffff;
+    border: 2px solid rgba(232, 158, 47, 1);
+    float: right;
+    margin-right: 16%;
+
 }
+
+button:hover{
+    background-color: rgba(232, 158, 47, 1);
+    border: 2px solid rgba(25, 163, 193, 1);
+}
+
+.BUT1:hover{
+    background-color: rgba(232, 158, 47, 1);
+    color: white;
+}
+
+.BUT2:hover{
+    background-color: rgba(25, 163, 193, 1);
+    color: white;
+}
+
+/*BLEM*/
+
+#Blem{
+    width: 100%;
+    height: 700px;
+}
+
+.left{
+    background-color: rgba(232, 158, 47, 1);
+    width: 30%;
+    height: 630px;
+    margin-top: 40px;
+    margin-left: 465px;
+    border-radius: 15px;
+}
+
+.right{
+    width: 35%;
+    height: 630px;
+    margin:40px ;
+}
+
+#Blem section{
+    display: flex;
+}
+
+.flote{
+    width: 68%;
+    height: 170px;
+    background-color: #ffffff;
+    margin-top: 60px;
+    font-size: 35px;
+    float: right;
+    margin-right: 480px;
+    padding: 22px;
+    font-family: tahoma;
+    border-radius: 15px;
+}
+
+.flote span{
+    color: rgba(25, 163, 193, 1);
+}
+
+.left img{
+    width: 155%;
+    height: 570px;
+    float: right;
+    margin-right: -210px;
+    margin-top: 30px;
+}
+
+#select{
+    margin-top: 50px;
+}
+
+.right #entier{
+    float: right;
+    margin-right: 90px;
+    font-size: 18px;
+    margin: 30px;
+    font-family: tahoma;
+}
+
+.right button{
+ background-color: rgba(232, 158, 47, 1);
+ width: 20%;
+ font-size: 20px;
+ height: 40px;
+ border: none;
+}
+
