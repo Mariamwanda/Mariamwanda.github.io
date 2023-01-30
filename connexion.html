@@ -9,20 +9,86 @@
     <link rel="stylesheet" href="connexion.css">
 </head>
 <body>
-   <div id="page">
+    <div class="recherche">
+        <input placeholder="recherche...">
+    </div>
+   <div class="page">
        <div id="MesLien">
-        <img src="IMAGE/Atl.png" alt="">
-            <a href="<!DOCTYPE html>.html">Accueil</a>
-            <a href="">Véhicules</a>
-            <a href="">Localisation Entreprise</a>
-            <a href="">Financement</a>
-       </div>
-        <h1>CONNNEXION</h1>
-        <fieldset>
-            <div class="orange">
-              <p>Vous-avez déjà un compte?</p>
+            <img src="IMAGE/Atl.png" alt="">
+            <a href="<!DOCTYPE html>.html" style="color: WHITE;">Accueil</a>
+            <a href="#folio" style="color: WHITE;">Véhicules</a>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#" style="color: WHITE;">Nos partenaires</a>
+                        <ul> 
+                            <li><a href="">Entreprise</a></li>
+                            <li><a href="">Safari</a></li>
+                            <li><a href="">UEMOA</a></li>
+                            <li><a href="">SUNASSURANCE</a></li>
+                            <li><a href="">SGBCI</a></li>
+                            <li><a href="">NCIA</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-        </fieldset>
-   </div>
+            <a href="" style="color: WHITE;">Localisation Entreprise</a>
+       </div>
+    </div>
+    <div id="page">
+        <form>
+            <h1>Se connecter</h1>
+            <div class="social">
+                <p><i class="fab fa-google"></i></p>
+                <p><i class="fab fa-youtube"></i></p>
+                <p><i class="fab fa-facebook"></i></p>
+                <p><i class="fab fa-twitter"></i></p>
+            </div>
+            <p class="email">Ou utiliser mon adresse e-mail :</p>
+            <div class="inputs">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Mot de passse">
+                <input type="number" placeholder="N°d'abonné">
+                <input type="sexe" placeholder="genre">
+                <input type="service" placeholder="entrez service">
+            </div>
+            <p class="inscription">Je n'ai pas de <span>compte</span>. Je m'en <span>crée</span> un.</p>
+            <div align="center">
+                <button type="submit">Se connecter</button>
+            </div>
+        </form>
+    </div>
+    <h2>Les Automobile d'Assurance</h2>
+    <div id="folio">
+        <div class="grid-item">
+            <img src="IMAGE/accident-297191__340.png" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="IMAGE/osarugue-igbinoba-4ardiyvfhTM-unsplash.jpg" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="IMAGE/istockphoto-1343467764-170667a (1).jpg" alt="">
+        </div>
+        
+        <div class="grid-item">
+            <img src="IMAGE/istockphoto-1201306396-170667a.jpg" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="IMAGE/istockphoto-1339395718-170667a.jpg" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="IMAGE/istockphoto-518198839-170667a.jpg" alt="">
+        </div>
+        
+        <div class="grid-item">
+            <img src="IMAGE/istockphoto-1354217126-170667a.jpg" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="IMAGE/mercedes-benz-1335674__340.png" alt="">
+        </div>
+        <div class="grid-item">
+            <img src="IMAGE/appart1.3e8f8171.jpg" alt="">
+        </div>
+    </div>
 </body>
 </html>
