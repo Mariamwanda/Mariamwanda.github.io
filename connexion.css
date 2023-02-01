@@ -83,10 +83,6 @@ h1{
     visibility: visible;
 }
 
-#menu ul li ul a:hover{
-
-    
-}
 #menu{
     position: relative;
     left: 22%;top: 40%;
@@ -95,11 +91,28 @@ h1{
 .recherche input{
     width: 40%;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 5px;
     position: relative;
     left: 28%;
-    margin-bottom: 5spx;
+    margin-bottom: 5px;
     outline: none;
+}
+
+#log{
+    float: right;
+    margin-right: 29%;
+    border-radius: 5px;
+}
+
+#log i{
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(134, 130, 130);
+}
+
+.recherche #log{
+    width: 3%;
+    height: 40px;
 }
 
 h1{
@@ -222,7 +235,7 @@ h2{
     width: 340px;
     height: 400px;
     background-color: rgb(240, 237, 237);
-    border: 3px solid rgba(25, 163, 193, 1);
+    border: 1px solid rgba(25, 163, 193, 1);
 }
 
 .grid-item img{
@@ -236,6 +249,7 @@ h2{
     margin-top: 8px;
     font-family: sans-serif;
     font-size: 25px;
+    color: rgba(232, 158, 47, 1);
 }
 
 #folio p{
@@ -253,4 +267,11 @@ h2{
 
 form .social p i:hover{
     transform: translateY(-10px);
+}
+
+.grid-item .fa{
+    color: rgba(25, 163, 193, 1);
+    font-size: 28px;
+    margin-top: 5%;
+    margin-left: 3%;
 }
