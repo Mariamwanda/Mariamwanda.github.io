@@ -16,7 +16,6 @@ body{
     width: 100%;
     height: 110px;
     display: flex;
-    
 }
 
 #banniere img{
@@ -313,6 +312,7 @@ fieldset{
 h4{
     text-align: center;
     font-size: 35px;
+    font-family: tahoma;
 }
 
 

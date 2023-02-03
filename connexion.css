@@ -29,8 +29,7 @@ h1{
     display: flex;
     text-decoration: none;
     opacity: 0.5;
-    
-    
+    position: fixed;
 }
 
 
@@ -275,3 +274,265 @@ form .social p i:hover{
     margin-top: 5%;
     margin-left: 3%;
 }
+
+
+.Apropos{
+    width: 100%;
+    background-color: rgb(230, 227, 227);
+    height: 725px;
+    margin-top: 20px;
+}
+
+.Apropos .texte p{
+    text-align: center;
+    font-size: 35px;
+    color: rgba(25, 163, 193, 1);
+    
+}
+
+.PremierImage{
+    width: 15%;
+    height:150px;
+    background-color: #4f4d4d;
+    position: relative;
+    left: 65%;
+    bottom: -6%;
+    border-radius: 2%;
+    background: url(IMAGE/Atl.png);
+    background-size: 100% 100%;
+}
+
+.DeuxiemeImage{
+    width: 15%;
+    height: 230px;
+    background-color: #5ebba4;
+    background-size: 100%;
+    position: relative;
+    left: 80%;
+    bottom: 2%;
+    border-radius: 2%;
+    background: url(IMAGE/clavier.jpg);
+    background-size: 100% 100%;
+}
+
+.TroixiemImage{
+    width: 15%;
+    height: 230px;
+    background-color: #854ab8;
+    position: relative;
+    left: 50%;
+    bottom: 30%;
+    border-radius: 2%;
+    background: url(IMAGE/slide3.90440a3f.jpg);
+    background-size: 100% 100%;
+}
+
+.QuatriemImage{
+    width: 15%;
+    height: 230px;
+    background-color: #d2f06e;
+    position: relative;
+    left: 65%;
+    bottom: 35%;
+    border-radius: 2%;
+    background: url(IMAGE/krakenimages-Y5bvRlcCx8k-unsplash.jpg);
+    background-size: 100% 100%;
+}
+
+.PremierImage .A{
+    border: 1px solid white;
+    width: 40%;
+    height: 42px;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 6%;
+    background-color: #000;
+}
+
+.DeuxiemeImage .B{
+    border: 1px solid white;
+    width: 40%;
+    height: 42px;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 6%;
+    background-color: #000;
+}
+
+.TroixiemImage .C{
+    border: 1px solid white;
+    width: 40%;
+    height: 42px;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 6%;
+    background-color: #000;
+}
+
+.QuatriemImage .D{
+    border: 1px solid white;
+    width: 30%;
+    height: 42px;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 6%;
+    background-color: #000;
+}
+
+h4{
+    text-align: center;
+    position: relative;
+    top: 95%;
+    font-size: 19px;
+    font-family: arial;
+    color: rgba(25, 163, 193, 1);
+}
+
+.paragraphe{
+    position: absolute;
+    left: 3%;
+    
+}
+
+.paragraphe p{
+    font-size: 25px;
+}
+
+.paragraphe .para{
+  font-size: 35px;
+  color: #000;
+  margin: 30px;
+  position: relative;
+  left: 5%;
+}
+
+ h6{
+    font-size: 30px;
+    font-family: arial;
+    position: relative;
+    top: 5%;
+    color: rgba(25, 163, 193, 1);
+}
+
+.paragraphe button{
+    width: 30%;
+    height: 40px;
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 20px;
+    outline: none;
+    border: #000;
+}
+
+.paragraphe button i{
+    font-size: 20px;
+    float: right;
+    margin-right: 6%;
+}
+
+.paragraphe section{
+    display: flex;
+    margin-left: 30px;
+}
+
+.paragraphe .oui{
+    font-size: 35px;
+    color: #000;
+    margin: 30px;
+    position: relative;
+    left: 15%;
+}
+
+.descend #footerContact{
+    position: relative;
+    left: -21%;
+    top: 60%;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: -10px;
+    
+}
+
+footer{
+    position: relative;
+    background-color:rgb(141, 209, 223) ;
+    width: 100%;
+    min-width:50px;
+    padding: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 175px;
+}
+
+footer .icon{
+    margin-bottom: 80%;
+}
+
+footer .icon,footer .fin{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .icon li,footer .fin li{
+ list-style: none;
+ margin: 10px;
+ margin-top: -70px;
+}
+
+footer .fin li{
+    list-style: none;
+    margin: 10px;
+    margin-top: -30px;
+   }
+
+footer .icon li a,footer .fin li a{
+    font-size: 3em;
+    color: #ffffff;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .icon li a:hover{
+    transform: translateY(-10px);
+}
+
+footer .fin li a{
+    font-size: 1.5em;
+    color: #ffffff;margin: 5px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .fin li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -80px;
+    font-size: 1.4em;
+}
+
+footer .waves{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+}
+
+
